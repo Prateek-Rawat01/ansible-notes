@@ -39,6 +39,7 @@ a) Create user:
 b) Configure user in sudoers file
 	sudo visudo
 	ansible ALL=(ALL) NOPASSWD: ALL
+       type ctrl+x+y+enter
 
 c) Update sshd config file
 	sudo vi /etc/ssh/sshd_config
